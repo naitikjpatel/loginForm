@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("backG.jpg");
+    background-size: 100% 740px; /* width heigh*/
+}
+
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-left: 40%;
+    margin-top: 6%;
+    border-radius: 15px;
+
+}
+
+.container .text{
+    position: relative;
+    top: 7%;
+}
+
+.inp1{
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+
+p{
+    margin-top: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+p span{
+    color: aqua;
+    cursor: pointer;
+}
+.text button{
+    width: 250px;
+    height: 44px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    font-size: 22px;
+    border-radius: 25px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+button:hover{
+    border: 3px solid aqua;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+
+}
